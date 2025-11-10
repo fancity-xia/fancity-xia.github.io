@@ -1,0 +1,3 @@
+baseURL = 'https://fancity-xia.github.io'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
