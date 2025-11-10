@@ -13,25 +13,12 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 <!--more-->
 ---
 
-## YouTube Privacy Enhanced Shortcode
-
-{{< youtube ZJthWmvUzzc >}}
-
-<br>
 
 ---
 
-## X Simple Shortcode
-
-{{< x user="DesignReviewed" id="1085870671291310081" >}}
-
-<br>
 
 ---
 
-## Vimeo Simple Shortcode
-
-{{< vimeo_simple 48912912 >}}
 
 ## bilibilibi Shortcode
 

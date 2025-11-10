@@ -1,7 +1,0 @@
-baseURL = 'https://fancity-xia.github.io'
-languageCode = 'zh-cn'
-title = 'My New Hugo Site'
-theme="stack"
-
-[author]
-name = "fancity.xia"
