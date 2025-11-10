@@ -1,1 +1,1 @@
-/ehpc/Software/hugo/hugo server  --bind 0.0.0.0
+/ehpc/Software/hugo/hugo server --bind 0.0.0.0
