@@ -1,0 +1,196 @@
+baseurl = "https://fancity-xia.github.io/"
+languageCode = "zh-cn"
+theme = "stack"
+title = "fancity-xia的个人博客"
+copyright = "fancity-xia"
+DefaultContentLanguage = "zh-cn"
+hasCJKLanguage = false
+
+[pagination]
+pagerSize = 3
+
+[permalinks]
+post = "/p/:slug/"
+page = "/:slug/"
+
+[params]
+mainSections = [ "post",]
+featuredImageField = "image"
+rssFullContent = true
+
+[menu]
+main = []
+[[menu.social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/CaiJimmy/hugo-theme-stack"
+
+[menu.social.params]
+icon = "brand-github"
+[[menu.social]]
+identifier = "twitter"
+name = "Twitter"
+url = "https://twitter.com"
+
+[menu.social.params]
+icon = "brand-twitter"
+
+[related]
+includeNewer = true
+threshold = 60
+toLower = false
+[[related.indices]]
+name = "tags"
+weight = 100
+
+[[related.indices]]
+name = "categories"
+weight = 200
+
+[languages.en]
+languageName = "English"
+title = "blog"
+weight = 1
+
+[languages.zh-cn]
+languageName = "中文"
+title = "博客"
+weight = 2
+
+[services.disqus]
+shortname = "stack"
+
+[services.googleAnalytics]
+
+[params.footer]
+since = 2024
+
+[params.dateFormat]
+published = "Jan 02, 2006"
+lastUpdated = "Jan 02, 2006 15:04 MST"
+
+[params.sidebar]
+emoji = "🍥"
+subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+[params.article]
+math = false
+toc = true
+readingTime = true
+
+[params.comments]
+enabled = true
+provider = "disqus"
+
+[params.widgets]
+[[params.widgets.homepage]]
+type = "search"
+
+[[params.widgets.homepage]]
+type = "archives"
+
+[params.widgets.homepage.params]
+limit = 5
+[[params.widgets.homepage]]
+type = "categories"
+
+[params.widgets.homepage.params]
+limit = 10
+[[params.widgets.homepage]]
+type = "tag-cloud"
+
+[params.widgets.homepage.params]
+limit = 10
+[[params.widgets.page]]
+type = "toc"
+
+[params.colorScheme]
+toggle = true
+default = "auto"
+
+[markup.tableOfContents]
+endLevel = 4
+ordered = true
+startLevel = 2
+
+[markup.highlight]
+noClasses = false
+codeFences = true
+guessSyntax = true
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+tabWidth = 4
+
+[params.sidebar.avatar]
+enabled = true
+local = true
+src = "img/avatar.png"
+
+[params.article.license]
+enabled = true
+default = "Licensed under CC BY-NC-SA 4.0"
+
+[params.comments.disqusjs]
+
+[params.comments.utterances]
+issueTerm = "pathname"
+
+[params.comments.beaudar]
+issueTerm = "pathname"
+
+[params.comments.remark42]
+
+[params.comments.vssue]
+autoCreateIssue = false
+
+[params.comments.waline]
+emoji = [ "https://unpkg.com/@waline/emojis@1.0.1/weibo",]
+requiredMeta = [ "name", "email", "url",]
+
+[params.comments.twikoo]
+
+[params.comments.cactus]
+defaultHomeserverUrl = "https://matrix.cactus.chat:8448"
+serverName = "cactus.chat"
+siteName = ""
+
+[params.comments.giscus]
+reactionsEnabled = 1
+emitMetadata = 0
+
+[params.comments.gitalk]
+
+[params.comments.cusdis]
+
+[params.opengraph.twitter]
+card = "summary_large_image"
+
+[params.defaultImage.opengraph]
+enabled = false
+local = false
+
+[params.imageProcessing.cover]
+enabled = true
+
+[params.imageProcessing.content]
+enabled = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[languages.en.params.sidebar]
+subtitle = "fancity-xia's personal blog"
+
+[languages.zh-cn.params.sidebar]
+subtitle = "fancity-xia的个人博客"
+
+[params.comments.waline.locale]
+admin = "Admin"
+
+[markup.goldmark.extensions.passthrough]
+enable = true
+
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [ [ "\\[", "\\]",], [ "$$", "$$",],]
+inline = [ [ "\\(", "\\)",],]
